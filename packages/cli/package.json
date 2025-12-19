@@ -1,0 +1,25 @@
+{
+  "name": "crossui",
+  "version": "0.1.0",
+  "description": "CLI for CrossUI component scaffolding",
+  "main": "dist/index.js",
+  "bin": {
+    "crossui": "dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc -p . && node -e \"require('fs-extra').copySync('src/templates', 'dist/templates')\"",
+    "prepare": "pnpm run build"
+  },
+  "keywords": ["crossui", "cli", "component", "scaffold"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  }
+}

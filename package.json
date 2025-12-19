@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf node_modules packages/*/node_modules apps/*/node_modules",
-    "dev": "pnpm --filter expo-playground start"
+    "dev": "pnpm --filter expo-playground start",
+    "prepare": "pnpm -C packages/cli install"
+  },
+  "bin": {
+    "crossui": "packages/cli/dist/bin.js"
   },
   "packageManager": "pnpm@9.0.0",
   "dependencies": {
