@@ -1,0 +1,14 @@
+{
+  "name": "crossui",
+  "description": "Cross-platform, theme-driven UI system powered by JSON design tokens.",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules packages/*/node_modules apps/*/node_modules",
+    "dev": "pnpm --filter expo-playground start"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "debug": "^4.4.3",
+    "ms": "^2.1.3"
+  }
+}

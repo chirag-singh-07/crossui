@@ -1,0 +1,13 @@
+{
+  "name": "@crossui/core",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "types": "index.ts",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.ts",
+    "./tokens/*": "./tokens/*",
+    "./components/*": "./components/*"
+  },
+  "private": true
+}

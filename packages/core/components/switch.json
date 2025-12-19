@@ -1,0 +1,12 @@
+{
+  "sizes": {
+    "sm": { "width": 44, "height": 26, "thumb": 22 },
+    "md": { "width": 52, "height": 32, "thumb": 28 },
+    "lg": { "width": 64, "height": 38, "thumb": 34 }
+  },
+  "colors": {
+    "on": "primary",
+    "off": "inputBorder",
+    "thumb": "white"
+  }
+}

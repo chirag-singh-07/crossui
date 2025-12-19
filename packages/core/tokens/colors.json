@@ -1,0 +1,49 @@
+{
+  "primary": "#6366f1",
+  "onPrimary": "#ffffff",
+  "white": "#ffffff",
+  "black": "#000000",
+  "primaryLight": "#e0e7ff",
+  "onPrimaryLight": "#4338ca",
+  
+  "secondary": "#10b981",
+  "onSecondary": "#ffffff",
+  "secondaryLight": "#d1fae5",
+  "onSecondaryLight": "#047857",
+  
+  "danger": "#ef4444",
+  "onDanger": "#ffffff",
+  "dangerLight": "#fee2e2",
+  "onDangerLight": "#b91c1c",
+
+  "warning": "#f59e0b",
+  "onWarning": "#ffffff",
+  "warningLight": "#fef3c7",
+  "onWarningLight": "#b45309",
+
+  "info": "#3b82f6",
+  "onInfo": "#ffffff",
+  "infoLight": "#dbeafe",
+  "onInfoLight": "#1e40af",
+
+  "success": "#22c55e",
+  "onSuccess": "#ffffff",
+  "successLight": "#dcfce7",
+  "onSuccessLight": "#15803d",
+
+  "dark": "#0f172a",
+  "onDark": "#ffffff",
+  
+  "light": "#f8fafc",
+  "onLight": "#0f172a",
+  
+  "transparent": "transparent",
+  "border": "#e2e8f0",
+
+  "inputBackground": "#ffffff",
+  "inputBorder": "#cbd5e1",
+  "inputText": "#1e293b",
+  "inputPlaceholder": "#94a3b8",
+  "inputDisabled": "#f1f5f9",
+  "inputFocusRing": "#c7d2fe"
+}

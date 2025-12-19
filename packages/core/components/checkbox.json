@@ -1,0 +1,13 @@
+{
+  "sizes": {
+    "sm": 20,
+    "md": 24,
+    "lg": 32
+  },
+  "colors": {
+    "checked": "primary",
+    "unchecked": "inputBorder",
+    "checkmark": "white"
+  },
+  "radius": "small"
+}

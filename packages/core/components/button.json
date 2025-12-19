@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "primary": { "background": "primary", "text": "onPrimary", "shadow": true },
+    "secondary": { "background": "secondary", "text": "onSecondary", "shadow": true },
+    "danger": { "background": "danger", "text": "onDanger", "shadow": true },
+    "success": { "background": "success", "text": "onSuccess", "shadow": true },
+    "warning": { "background": "warning", "text": "onWarning", "shadow": true },
+    "info": { "background": "info", "text": "onInfo", "shadow": true },
+    "dark": { "background": "dark", "text": "onDark", "shadow": true },
+    "light": { "background": "light", "text": "onLight", "shadow": true },
+
+    "outlinePrimary": { "background": "transparent", "text": "primary", "border": "primary", "borderWidth": 2 },
+    "outlineSecondary": { "background": "transparent", "text": "secondary", "border": "secondary", "borderWidth": 2 },
+    "outlineDanger": { "background": "transparent", "text": "danger", "border": "danger", "borderWidth": 2 },
+    "outlineSuccess": { "background": "transparent", "text": "success", "border": "success", "borderWidth": 2 },
+
+    "softPrimary": { "background": "primaryLight", "text": "onPrimaryLight" },
+    "softDanger": { "background": "dangerLight", "text": "onDangerLight" },
+    "softSuccess": { "background": "successLight", "text": "onSuccessLight" },
+    "softWarning": { "background": "warningLight", "text": "onWarningLight" },
+    "softInfo": { "background": "infoLight", "text": "onInfoLight" },
+
+    "ghost": { "background": "transparent", "text": "primary" },
+    "link": { "background": "transparent", "text": "info", "underline": true }
+  },
+  "sizes": {
+    "xs": { "paddingVertical": "xs", "paddingHorizontal": "s", "fontSize": 12, "radius": "small" },
+    "sm": { "paddingVertical": "s", "paddingHorizontal": "m", "fontSize": 14, "radius": "medium" },
+    "md": { "paddingVertical": "sm", "paddingHorizontal": "l", "fontSize": 16, "radius": "medium" },
+    "lg": { "paddingVertical": "m", "paddingHorizontal": "l", "fontSize": 18, "radius": "medium" },
+    "xl": { "paddingVertical": "l", "paddingHorizontal": "xl", "fontSize": 20, "radius": "large" }
+  },
+  "defaults": {
+    "variant": "primary",
+    "size": "md"
+  }
+}

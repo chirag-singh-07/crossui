@@ -1,0 +1,13 @@
+{
+  "sizes": {
+    "sm": 18,
+    "md": 24,
+    "lg": 30
+  },
+  "colors": {
+    "selected": "primary",
+    "unselected": "border",
+    "dot": "white"
+  },
+  "radius": "round"
+}

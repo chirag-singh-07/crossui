@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "default": {
+      "background": "inputBackground",
+      "text": "inputText",
+      "border": "inputBorder",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 1
+    },
+    "disabled": {
+      "background": "inputDisabled",
+      "text": "inputPlaceholder",
+      "border": "inputBorder",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 1
+    },
+    "error": {
+      "background": "inputBackground",
+      "text": "inputText",
+      "border": "danger",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 1
+    },
+    "focused": {
+      "background": "inputBackground",
+      "text": "inputText",
+      "border": "primary",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 2
+    },
+    "filled": {
+      "background": "light",
+      "text": "inputText",
+      "border": "transparent",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 0
+    },
+    "outlined": {
+      "background": "transparent",
+      "text": "inputText",
+      "border": "inputBorder",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 1.5
+    },
+    "underlined": {
+      "background": "transparent",
+      "text": "inputText",
+      "border": "inputBorder",
+      "placeholder": "inputPlaceholder",
+      "borderWidth": 0,
+      "borderBottomWidth": 2
+    }
+  },
+  "sizes": {
+    "xs": { "height": 30, "fontSize": 12, "paddingHorizontal": "s", "radius": "small" },
+    "sm": { "height": 36, "fontSize": 14, "paddingHorizontal": "sm", "radius": "small" },
+    "md": { "height": 42, "fontSize": 16, "paddingHorizontal": "m", "radius": "medium" },
+    "lg": { "height": 50, "fontSize": 18, "paddingHorizontal": "l", "radius": "medium" }
+  },
+  "defaults": {
+    "variant": "default",
+    "size": "md"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "default": {
+      "background": "inputBackground",
+      "text": "inputText",
+      "border": "inputBorder",
+      "borderWidth": 1.5
+    },
+    "filled": {
+      "background": "primaryLight",
+      "text": "primary",
+      "border": "primary",
+      "borderWidth": 2
+    },
+    "error": {
+      "background": "dangerLight",
+      "text": "danger",
+      "border": "danger",
+      "borderWidth": 2
+    },
+    "success": {
+      "background": "successLight",
+      "text": "success",
+      "border": "success",
+      "borderWidth": 2
+    }
+  },
+  "sizes": {
+    "sm": {
+      "width": 40,
+      "height": 48,
+      "fontSize": 18,
+      "radius": "small"
+    },
+    "md": {
+      "width": 50,
+      "height": 56,
+      "fontSize": 24,
+      "radius": "medium"
+    },
+    "lg": {
+      "width": 60,
+      "height": 64,
+      "fontSize": 28,
+      "radius": "medium"
+    }
+  },
+  "defaults": {
+    "variant": "default",
+    "size": "md",
+    "length": 6,
+    "gap": 12
+  }
+}
